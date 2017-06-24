@@ -1,0 +1,56 @@
+<html>
+
+<link href="accesorios.css" rel="stylesheet" type="text/css">
+
+<head>
+<title> Mi Armario-Virtual </title>
+</head>
+
+<div style="position:absolute; left:150px; top:100px; "><img src="blusa1.jpg" width="450" height="400" ></div>
+<div style="position:absolute; left:550px; top:100px; "><img src="blusa2.jpg" width="450" height="400" ></div>
+
+<body>
+
+<nav id="top">
+  <a href="principal.html">Mi Armario-Virtual</a> |
+  <a href="verMiArmario.html" style="color:black">Ver mi armario</a> |
+  <a href="anadirPrenda.html">Añadir prenda</a> |
+  <a href="ayuda.html">Ayuda</a> |
+  <a href="borrarArmario.html">Vaciar armario</a> |
+</nav>
+
+<section style="font-family:Arial; position:absolute;  left:1100px; top:230px;">
+	<form method="POST" action="espejo.html">
+		<button type="submit" class="boton" style="background:#E0DFDB; color:black; cursor:hand; width:150px; height:40px;">Poner</button>
+	</form>
+</section>
+<section style="font-family:Arial; position:absolute;  left:1100px; top:300px;">
+	<form method="POST" action="blusas.html">
+		<button type="submit" class="boton" style="background:#E0DFDB; color:black; cursor:hand; width:150px; height:40px;">Cancel</button>
+	</form>
+</section>
+
+<section style="font-family:Arial; position:absolute;  left:200px; top:500px;">
+		<p><input type="radio" name="rol1" value="Blusa1" checked > Blusa 1<br></p>
+</section>
+
+<section style="font-family:Arial; position:absolute;  left:650px; top:500px;">
+		<p><input type="radio" name="rol1" value="Blusa2" checked> Blusa 2<br></p>
+</section>
+
+<style type="text/css">
+  .boton{
+    text-decoration: none;
+    font-family: Arial;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;/*#FF941B;*/
+    background-color: white/*#FF941B;*/
+    border-radius: 6px;
+    border: 2px solid #FF941B;
+  }
+</style>
+
+</body>
+</html>

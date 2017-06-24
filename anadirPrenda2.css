@@ -1,0 +1,18 @@
+h1
+{
+	text-decoration: underline;
+}
+
+.file
+{
+	text-align: center;
+}
+
+
+div.form-group {
+	position: absolute;
+	top: 45px;
+	left: 500px;
+	z-index: 1;
+}
+

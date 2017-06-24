@@ -1,0 +1,45 @@
+p
+{
+	font-size:50px;
+}
+
+/*--------------------------------------------------------------------*/
+/*Navegador de arriba*/
+/*--------------------------------------------------------------------*/
+a {
+	margin:20px; /*Margen del borde al conjunto*/
+	padding:15px; /*Distancia entre el contenido y | */
+	font-size:23px; /*Tamaño de la letra*/
+	font-family:Courier; /*Tipo de letra*/
+	font-weight:bold; /*Grosor de la letra*/
+	text-align:center;
+	color:white;
+	text-decoration: none; /*Evita el subrayado*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	color:black;
+}
+
+nav 
+{
+	background:#FF941B;/*#0914C9;*/
+}
+
+/*--------------------------------------------------------------------*/
+/*SCROLL*/
+/*--------------------------------------------------------------------*/
+#top {
+	position:fixed;	
+	font-family:verdana,arial;	
+	font-size:11pt;
+	text-align:center;
+	padding: 10px 5px 10px 5px;    
+	top: 0px;                    
+	left: 0px;            
+	width:100%;
+	background-color:#FF941B; 	
+	z-index: 1;               /* hace que la capa sea opaca  */
+} 
+

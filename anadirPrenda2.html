@@ -1,0 +1,86 @@
+<html>
+
+<link href="anadirPrenda.css" rel="stylesheet" type="text/css">
+
+<head>
+<title> Mi Armario-Virtual </title>
+</head>
+
+<body>
+
+<nav id="top">
+  <a href="principal2.html">Mi Armario-Virtual</a> |
+  <a href="verMiArmario2.html">Ver mi armario</a> |
+  <a href="anadirPrenda2.html" style="color:black">Añadir prenda</a> |
+  <a href="ayuda2.html">Ayuda</a> |
+  <a href="borrarArmario.html">Vaciar armario</a> |
+</nav>
+
+<div class="form-group">
+	<br> </br>
+		<input type="file" id="pdf" name="pdf" class="boton1" style="margin-top:40px;">
+</div>
+
+
+
+
+
+<br> </br>
+
+
+
+
+<section style="position:absolute;  font-family: Arial; left:200px; top:200px; font-size:30px;">
+		<p><input type="radio" name="rol" value="Accesorios" checked> Accesorios<br></p>
+		<p><input type="radio" name="rol" value="Blusas" checked> Blusas<br></p>
+		<p><input type="radio" name="rol" value="Bufandas" checked> Bufandas<br></p>
+		<p><input type="radio" name="rol" value="Calcetines" checked> Calcetines<br></p>
+		<p><input type="radio" name="rol" value="Camisas" checked> Camisas<br></p>
+</section>
+
+<section style="font:Arial; position:absolute; font-family: Arial; left:500px; top:200px; font-size:30px;">
+		<p><input type="radio" name="rol" value="Camisetas" checked> Camisetas<br></p>
+		<p><input type="radio" name="rol" value="Cazadoras" checked> Cazadoras<br></p>
+		<p><input type="radio" name="rol" value="Chandal" checked> Chandal<br></p>
+		<p><input type="radio" name="rol" value="Chaquetas" checked> Chaquetas<br></p>
+		<p><input type="radio" name="rol" value="Faldas" checked> Faldas<br></p>
+</section>
+
+<section style="font:Arial; position:absolute; font-family: Arial; left:800px; top:200px; font-size:30px;">
+		<p><input type="radio" name="rol" value="Gorros" checked> Gorros<br></p>
+		<p><input type="radio" name="rol" value="Interior" checked> Interior<br></p>
+		<p><input type="radio" name="rol" value="Monos" checked> Monos<br></p>
+		<p><input type="radio" name="rol" value="Pantalones" checked> Pantalones<br></p>
+		<p><input type="radio" name="rol" value="Vestidos" checked> Vestidos<br></p>
+</section>
+
+		<section style="font:Arial; position:absolute;  left:1050px; top:330px;">
+			<form method="POST" action="prendaCorrecta.html">
+				<button type="submit" class="boton" style="background:#E0DFDB; color:black; cursor:hand; width:150px; height:40px;">OK</button>
+			</form>
+		</section>
+		<section style="font:Arial; position:absolute;  left:1050px; top:390px;">
+			<form method="POST" action="anadirPrenda.html">
+				<button type="submit" class="boton" style="background:#E0DFDB; color:black; cursor:hand; width:150px; height:40px;">Cancel</button>
+			</form>
+
+
+		</section>
+
+<style type="text/css">
+  .boton{
+    text-decoration: none;
+    font-family: Arial;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;/*#FF941B;*/
+    background-color: white/*#FF941B;*/
+    border-radius: 6px;
+    border: 2px solid #FF941B;
+  }
+</style>
+
+
+</body>
+</html>
